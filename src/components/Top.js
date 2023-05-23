@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import "../index.css";
 // 앱 다운로드 즐겨찾기 있는 상단 바
 function Top() {
     return (
@@ -27,7 +28,7 @@ function Top() {
                 </TopMenu>
                 <TopMenu>
                     <TopButton>로그인/회원가입</TopButton>
-                    <TopA>내 상점</TopA>
+                    <TopA>내상점</TopA>
                 </TopMenu>
             </TopContainer>
         </TopWrapper>
